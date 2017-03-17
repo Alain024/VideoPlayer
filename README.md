@@ -1,7 +1,6 @@
-<ul>
-  <li>
-      HTML5 video practice
-      Build an HTML5 video player according to the following requirements:
+
+      ## HTML5 video practice
+         Build an HTML5 video player according to the following requirements:
 
       You can take sample videos from http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5
       You can use Font Awesome icon for the player controls: http://fontawesome.io/
@@ -17,6 +16,4 @@
       If the browser doesn’t support HTML5 video, display a fallback image and a message to indicate the user that the browser doesn’t support the video feature.
       Notes:
 
-      You can use any framework or library like backbone, Angular, jQuery, Underscore etc if you want. 
-  </li>
-</ul>
+      You can use any framework or library like backbone, Angular, jQuery, Underscore etc if you want.
