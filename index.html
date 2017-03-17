@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+  <title>VideoPlayer</title>
+</head>
+<body>
+  <section class="wrapper">
+    <video id="myVideo" poster="images/poster.jpg">
+        <source src=videos/journey.mp4 type=video/webm>
+          <img src="images/error.jpg" alt="Your browser doesn't support HTML5 video.">
+          <p>Your browser doesn't support HTML5 video.</p>
+    </video>
+    <div class="mediaControls">
+      <i class="fa fa-play fa-2x" aria-hidden="true" id="btnPlay"></i>
+      <input type="range" id="btnTimeLine"value="0">
+      <i class="fa fa-volume-up fa-2x" aria-hidden="true" id="btnMute"></i>
+      <label id=currentTime>0:00 / 0:00</label>
+    </div> <!-- END OF mediaControls -->
+  </section>
+<script src="js/logic.js"></script>
+</body>
+</html>
